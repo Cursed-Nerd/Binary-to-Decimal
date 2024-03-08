@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Binary To Decimal Converter :- </h1>
+    <h2>Binary Digits are 0 & 1</h2>
+    <form id="input" onsubmit="return submitFunc()">
+        <h3><label>Enter Binary number</label></h3>
+        <input 
+            id="binary-input" type="number" 
+            maxlength="8" placeholder="01010101" 
+            required autofocus
+        >
+    </form>
+    <div class="output">
+        <h3>Your number in Decimal is </h3>
+        <div id="decimal-output"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

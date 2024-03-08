@@ -1,0 +1,14 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    appearance: none; 
+}
+
+.output{
+    display: flex;
+}
+
+#decimal-output{
+    padding-top: 22px;
+    padding-left: 10px;
+}
